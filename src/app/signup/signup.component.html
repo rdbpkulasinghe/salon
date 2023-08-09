@@ -1,0 +1,103 @@
+<body>
+  <div
+    class="container-fluid d-flex justify-content-center align-items-center vh-900"
+    style="background-color: rgb(70, 68, 68)"
+  >
+    <br />
+    <br /><br /><br />
+    <form
+      class="p-4 rounded background-color"
+      (ngSubmit)="onSignupSubmit()"
+      style="width: 400px; height: 850px; position: static"
+    >
+      <h2
+        class="mb-4 text-center"
+        style="font-size: 30px; font-weight: bold; color: gold"
+      >
+        Login
+      </h2>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          [(ngModel)]="signupData.name"
+          required
+          class="form-control"
+        />
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          [(ngModel)]="signupData.email"
+          required
+          class="form-control"
+        />
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          [(ngModel)]="signupData.password"
+          required
+          class="form-control"
+        />
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          [(ngModel)]="signupData.phone"
+          required
+          class="form-control"
+        />
+      </div>
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <textarea
+          id="address"
+          name="address"
+          [(ngModel)]="signupData.address"
+          required
+          class="form-control"
+        ></textarea>
+      </div>
+      <div class="form-group">
+        <label for="dob">Date of Birth:</label>
+        <input
+          type="date"
+          id="dob"
+          name="dob"
+          [(ngModel)]="signupData.dob"
+          required
+          class="form-control"
+        />
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select
+          id="gender"
+          name="gender"
+          [(ngModel)]="signupData.gender"
+          required
+          class="form-control"
+        >
+          <option value="" disabled>Select your gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+  </div>
+</body>

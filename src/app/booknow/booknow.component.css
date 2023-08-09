@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 10px 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Add a custom CSS class to style the card header */
+.custom-card-header {
+  background-color: black;
+  color: gold;
+  padding: 10px;
+  font-size: large;
+}
+
+/* Additional styling for the card */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* Set position to enable stacking */
+  overflow: hidden; /* Hide any content that overflows the card */
+  border: none;
+  background-color: silver;
+}
+
+.card-body {
+  padding: 20px;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+/* Style the button */
+button {
+  background-color: gold;
+  color: black;
+  border: 10;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border-color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: goldenrod;
+}

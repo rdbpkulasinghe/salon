@@ -1,0 +1,26 @@
+<div class="card custom-card" style="width: 35rem">
+  <div class="row g-0">
+    <div class="col-md-7">
+      <div class="card-body" style="height: 150px">
+        <h3 class="card-title">Salon Name</h3>
+        <h5>Rating</h5>
+        <ngb-rating
+          [max]="5"
+          [rate]="Finalrating"
+          [readonly]="true"
+        ></ngb-rating>
+        <h4>{{ Finalrating }}</h4>
+        <p>Rating from {{ ratingcount }} users</p>
+
+        <a class="btn btn-warning" routerLink="/saloonpage">BOOK NOW</a>
+      </div>
+    </div>
+    <div class="col-md-5 d-flex align-items-center">
+      <img
+        src="assets/salon1.jpg"
+        class="card-img-top h-150 w-250"
+        alt="Salon Image"
+      />
+    </div>
+  </div>
+</div>

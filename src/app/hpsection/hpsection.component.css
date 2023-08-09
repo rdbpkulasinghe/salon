@@ -1,0 +1,33 @@
+.half-half-card .card-body {
+  height: 215px; /* You can adjust this height as needed */
+}
+
+.half-half-card img {
+  width: 50%; /* Each image takes half of the card's width */
+  height: 100%;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar .form-control {
+  height: 50px; /* Increase the height of the search bar */
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000; /* Set the border thickness */
+  border-radius: 5;
+}
+
+.search-bar .btn-outline-success {
+  height: 50px; /* Increase the height of the button to match the search bar */
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #000; /* Set the border thickness */
+  border-radius: 5px;
+}

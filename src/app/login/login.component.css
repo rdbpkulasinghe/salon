@@ -1,0 +1,62 @@
+body {
+  background-color: silver;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Additional styling for the form elements */
+.form-group {
+  margin-top: auto;
+  margin-bottom: 18px;
+  color: white;
+  font-size: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: gold;
+  color: black;
+  border: none;
+  border-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Add the blurred background image using a pseudo-element */
+.background-color {
+  background-color: rgb(0, 0, 0);
+  border-color: gold;
+  border-width: 3px;
+  border-style: solid;
+}
+input {
+  background: #d4d4d4;
+}

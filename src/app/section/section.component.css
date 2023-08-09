@@ -1,0 +1,71 @@
+/* Custom CSS to adjust the height of the card to fit the images properly */
+.half-half-card .card-body {
+  height: 215px; /* You can adjust this height as needed */
+}
+
+.half-half-card img {
+  width: 50%; /* Each image takes half of the card's width */
+  height: 100%;
+  object-fit: cover;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin: 0;
+}
+
+.profile-card {
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile-card h2 {
+  color: #333333;
+  margin: 0;
+}
+.big-icon-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-icon-card svg {
+  font-size: 5rem; /* You can adjust the font size as needed */
+  margin-bottom: 10px; /* Add margin to separate the icon and text */
+}
+.centered-icon-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 215px; /* Make sure the card takes full height */
+}
+
+.centered-icon-card svg {
+  width: 100px;
+  height: 100px;
+}
+.custom-card {
+  /* Adjust the width as needed */
+  height: 215px; /* Adjust the height as needed */
+  background-color: white; /* Set the background color to black */
+  color: white; /* Set the text color to white for better visibility */
+}
+.card {
+  border: none;
+}

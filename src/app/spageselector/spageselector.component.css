@@ -1,0 +1,50 @@
+.card {
+  width: 70%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Custom CSS to remove the card border and style the text inside the card */
+.card {
+  border: none;
+  background-color: white;
+}
+
+.card .card-body,
+.card .card-body a {
+  color: white;
+}
+.card-text {
+  font-size: 15px;
+  font-weight: bold;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+}
+
+.card-body {
+  text-align: center;
+}

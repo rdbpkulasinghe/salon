@@ -1,0 +1,7 @@
+.custom-select {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: 3px; /* Set the border width to 2 pixels */
+  border-color: #555;
+}
